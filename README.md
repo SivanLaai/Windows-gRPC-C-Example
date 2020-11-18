@@ -36,6 +36,7 @@ when you installed gRPC, proto should be installed too. And add  proto `"<vcpkg_
 #### (1)Cmake
 [CMakeLists.txt](CMakeLists.txt)
 * When you add gRPC to your project, proto files should be in your project root directory. All the gRPC source files will be generated at your project root directory. 
+
 ![Image text](img/proto.png)
 * Of course, you can change the path if you have a basic understanding of CMake. If not and you want to learn CMake, you should check [here](https://sanoj.in/2020/04/09/an-introduction-to-cmake.html). 
 
@@ -77,6 +78,8 @@ Greeter received: Hello world
 
 
 ## Reference
-https://sanoj.in/2020/05/07/working-with-grpc-in-windows.html
-https://grpc.io/docs/languages/cpp/quickstart/
-https://github.com/microsoft/vcpkg
+* https://sanoj.in/2020/05/07/working-with-grpc-in-windows.html
+
+* https://grpc.io/docs/languages/cpp/quickstart/
+
+* https://github.com/microsoft/vcpkg
