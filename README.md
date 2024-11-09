@@ -1,6 +1,6 @@
 # Windows gRPC C++ Hello World Source
 ## Preface
-When I was building gRPC C++ from gRPC source on the official website(here), it was very unfriendly to build it on windows, and finally I built successfully the gRPC project(spent a whole day to figure it, the whole project's dependencies are numerous and very complicated, so really hard you know@_@).
+When I was building gRPC C++ from gRPC source on the official website(here), it was very unfriendly to build it on windows, and finally I built successfully the gRPC project.
  
  But even if I build it successfully, I can't install gRPC into my project. There is less information about how to install it on windows step by step, all this is on Linux. So I google it and finally installed it into my project successfully by vcpkg. Here is my windows gRPC source code, which can build and run on my PC. It can also work with VS Code CMAKE.
 ## 1. Build and Install C++ gRPC on windows
